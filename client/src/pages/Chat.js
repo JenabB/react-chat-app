@@ -51,7 +51,10 @@ const Chat = ({ location }) => {
 
   console.log(message, messages);
   return (
-    <div>
+    <div
+      className="bg-blue-600 lg:w-2/5 w-full rounded-lg mx-auto lg:my-20"
+      style={{ height: '100vh' }}
+    >
       <div>
         <InfoBar room={room} />
 
